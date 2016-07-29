@@ -39,6 +39,8 @@ MONGO_DBNAME = "skadooshCoreDb"
 ```
 
 ### Running the engine api ###
+Start rabbitmq(brew services start rabbitmq)
+start mongodb(mongod)
 ```
 chmod +x run.sh
 ./run.sh
